@@ -21,20 +21,20 @@ users:
         # 任务类型（收集：0、签到：1、查寝2）
         type: 0
         # 学校名称
-        schoolName: '宜宾学院'
+        schoolName: '北华大学'
         # 账号
-        username: ''
+        username: '201817040124'
         # 密码
-        password: ''
+        password: 'WYLwyl123456'
         # 定位位置信息
-        address: '四川省（自己改）'
+        address: '吉林省长春市二道区'
         #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码，当sendType为2时代表接收消息的pushplus token
-        sendKey: ''
+        sendKey: '1312800827'
         # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
         # 经纬度信息
-        lon: 104.6191824
+        lon: 125.381508
         #经纬度信息
-        lat: 28.800613
+        lat: 43.889298
         # 是否检查表单的标题（1代表检查，0代表不检查）
         checkTitle: 1
         # 代理ip信息（若无可忽略本设置、该配置仅供您所在环境ip被ban且自己拥有代理ip使用）（格式为：网络协议://ip地址:端口   如：http://127.0.0.1:7890）
@@ -44,23 +44,17 @@ users:
         # 表单信息
         forms:
             - form:
-                  title: 今日具体所在地
-                  value: 四川省/宜宾市/翠屏区
+                  title: 你早间的体温是否正常：
+                  value: 正常
             - form:
-                  title: 是否在校
-                  value: 是
+                  title: 你午间的体温是否正常：
+                  value: 正常
             - form:
-                  title: 上午体温
-                  value: '36.2'
+                  title: 你晚间的体温是否正常：
+                  value: 正常
             - form:
-                  title: 下午体温
-                  value: '36.2'
+                  title: 4、你今日是否有不适症状：
+                  value: 无不适症状
             - form:
-                  title: 晚上体温
-                  value: '36.5'
-            - form:
-                  title: 身体状况
-                  value: 身体健康
-            - form:
-                  title: 是否今日返校？
-                  value: 否
+                  title: 你当前的状态
+                  value: 正常
